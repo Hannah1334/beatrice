@@ -1,0 +1,432 @@
+<style>
+body{
+background-image: url('https://i.imgur.com/fFG9vvN.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+background-color:#ed857e;
+}
+
+::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #45100a;}
+
+#title {
+position:absolute;
+width:25%;
+height:10%;
+top:13%;
+left:60%;
+text-align:center;
+font-size:500%;
+color:#45100a;
+font-family:Unica One;
+}
+
+#picbox1 {
+position:absolute;
+border:1px solid #ed857e;
+width:18%;
+height:50%;
+top:25%;
+left:26%;
+background-image: url('https://i.imgur.com/wW7xtaf.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox1:hover {
+background-image: url('https://i.imgur.com/FHtmcpW.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox2 {
+position:absolute;
+border:1px solid #ed857e;
+width:10%;
+height:24%;
+top:25%;
+left:15%;
+background-image: url('https://i.imgur.com/pRwDJWZ.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox2:hover {
+background-image: url('https://i.imgur.com/Z7Wd23D.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:left !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox3 {
+position:absolute;
+border:1px solid #ed857e;
+width:10%;
+height:24%;
+top:51%;
+left:15%;
+background-image: url('https://i.imgur.com/GXpaTko.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#picbox3:hover {
+background-image: url('https://i.imgur.com/Uf2HnU4.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#content {
+position:absolute;
+overflow:auto;
+border:1px solid #ed857e;
+background-color:#ffc8bf;
+padding:2%;
+width:35%;
+height:41.7%;
+top:25%;
+left:45%;
+color:#000000;
+font-family:Amaranth;
+font-size:80%;
+}
+
+#tabbox1 {
+position:absolute;
+border:1px solid #ed857e;
+background-color:#ffffff;
+width:1%;
+height:5%;
+left:46%;
+top:21%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox1:hover {
+height:8%;
+top:18%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox2 {
+position:absolute;
+border:1px solid #ed857e;
+background-color:#ffffff;
+width:1%;
+height:6%;
+left:47.5%;
+top:19%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox2:hover {
+height:8%;
+top:18%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox3 {
+position:absolute;
+border:1px solid #ed857e;
+background-color:#ffffff;
+width:1%;
+height:5%;
+left:49%;
+top:22%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox3:hover {
+height:8%;
+top:18%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox4 {
+position:absolute;
+border:1px solid #ed857e;
+background-color:#ffffff;
+width:1%;
+height:8%;
+left:50.5%;
+top:18%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox4:hover {
+height:8%;
+top:18%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox5 {
+position:absolute;
+border:1px solid #ed857e;
+background-color:#ffffff;
+width:1%;
+height:5%;
+left:52%;
+top:21%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox5:hover {
+height:8%;
+top:18%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox6 {
+position:absolute;
+border:1px solid #ed857e;
+background-color:#ffffff;
+width:1%;
+height:5%;
+left:53.5%;
+top:22%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox6:hover {
+height:8%;
+top:18%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs{
+display:block;
+opacity:0;
+width:100%;
+height:100%;
+text-align:center;
+color:#45100a;
+font-family:Amaranth;
+font-size:100%;
+background-color:#ffc8bf;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6 {
+display: none;
+}
+
+i {
+color:#666666;
+font-size:100%;
+}
+
+li {
+color:#666666;
+}
+
+a {
+color:#666666;
+}
+
+h1 {
+color: #c7873a;
+letter-spacing:3px;
+font-family: Unica One;
+text-align:center;
+font-size: 90%;
+}
+
+b {
+font-size: 80%;
+color:#45100a;
+font-family:Unica One;
+}
+</style>
+
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur818.cur), progress !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Amaranth|Unica+One" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="tabbox1">
+<span class="tabs" onClick="changeNavigation ('tab1')">1</span>
+</div>
+<div id="tabbox2">
+<span class="tabs" onClick="changeNavigation ('tab2')">2</span>
+</div>
+<div id="tabbox3">
+<span class="tabs" onClick="changeNavigation ('tab3')">3</span>
+</div>
+<div id="tabbox4">
+<span class="tabs" onClick="changeNavigation ('tab4')">4</span>
+</div>
+<div id="tabbox5">
+<span class="tabs" onClick="changeNavigation ('tab5')">5</span>
+</div>
+<div id="tabbox6">
+<span class="tabs" onClick="changeNavigation ('tab6')">6</span>
+</div>
+
+<div id="picbox1">
+</div>
+<div id="picbox2">
+</div>
+<div id="picbox3">
+</div>
+
+<div id="content">
+<h1>Basic Information</h1>
+<img align="right" style="height:70%;" src="https://i.imgur.com/tFTZm3R.png"/>
+<b>Name:</b> Beatrice Rose<br>
+<b>Nickname/Alias:</b> Tris<br>
+<b>Age:</b> Twenty-Two<br>
+<b>Birthdate:</b> May 3rd<br>
+<b>Gender:</b> Cisgender Female<br>
+<b>Sexuality:</b> Bisexual<br>
+<b>Species:</b> Human<br>
+<b>Race:</b> British<br>
+<b>Magic Tree:</b> Magus Manatism<br>
+<b>Rank:</b> Paige<br>
+<b>Occupation:</b> Student at <a target="_blank" href="http://ulreich.weebly.com">Ulreich University</a><br>
+<b>Height:</b> 6'0"<br>
+<b>Weight:</b> 140 lbs.
+</div>
+
+<div id="title">
+Lady Rose
+</div>
+
+<div id="tab1">
+<h1>Detailed Information</h1>
+<img align="right" style="height:90%;" src="https://i.imgur.com/2DFaXXn.png"/>
+<b>Appearance</b><br>
+While fairly tall for a female, Beatrice still manages to maintain a very dainty and gentle look. Her body can appear deceptively thin beneath clothing, but her soft pale skin is lined with hard sinew all throughout her body. She is kept well in shape and despite the soft "pampered" look of a female she has--with her prominent hourglass figure and decent shape around her chest and her rear--it can become clear that she has been hard trained specifically for combat. As a full-blooded member of the Rose family, Beatrice has long flowing pink hair, abnormal for the human race but accepted thanks to the wealth, power, and status her family name holds. This is definitely one snobby rich girl that can punch well enough to back up her snide attitude.
+<br><br>
+<b>Personality</b><br>
+Like any human high enough class to be considered "royal," this woman was taught from a very young age how to play people to see her how she wants them to see her, and how to switch easily between masks without detection. While not necessarily a naturally coldhearted or vile person, it will be very hard to be anything more than an acquaintance with her. Friends and anything beyond will be near impossible without some miracle...
+<br>
+Beatrice's favorite persona is a caring and passionate woman with a kind heart, and while it is clear that aspects of her most-used mask are starting to become a permanent part of her, she will never hesitate to turn and kill someone who thinks themself a friend should the order be given.
+</div>
+
+<div id="tab2">
+<h1>History of the Rose Family</h1>
+As common as most fairy-tales, the Rose family began with a pair of star-crossed-lovers. Society scoffed in disgust for various reasons, the most prominent being the prejudice mentality at the time against humans and magical creatures being anything less than hateful enemies. Being a newer clan of talented human mages among a large number of already old families, the lovers' descendants faced many trials and various hardships, but legend says it was their strong bond which gave them the ability to survive through it.
+<br><br>
+To this day, the Roses are seen as a highly influential British family, even regarded as high ranking New World politicians thanks to their involvement with many of man's trials and hardships. As the present became history, time erased the reality of magic and harnass-able energy from the minds of humans--or at least, the ones who didn't continue to practice it religiously behind closed doors. The strange pink haired family of wealth became increasingly secretive as the years passed, and now the only access the outside world has to their lives are small tidbits of information they allow to be leaked to the press. It is not uncommon to see a Rose attend things like charity events and various other "good will" spreading efforts. They are seen as a kindhearted people who will pay any cost to take care of their fellow man...
+<br><br>
+...Or at least, that is what they have led everyone to believe.
+<br><br>
+<h1>The Birth and Early Life of Beatrice</h1>
+Inside the walls of the many different Rose estates, far more sinister things have been set in motion. With roots of their unspeakably dark acts taking root from the strange and questionable relationship shared by the Patriarch and Matriarch, it is not surprising to know that these people are desperately searching for a "Savior" of sorts; someone to redeem them and put their tormented souls to peaceful rest. When one of the favored wives among the family's four branches publicly announced she was with child, the family Oracle received a vision that suggested a child--who was unborn as of yet but soon would enter the world--would be the key to bringing an end to their hellish existence. As vague a prophecy as any, it was automatically assumed that this developing baby was their apparent hero, and who could blame their assumption considering the pregnant woman was the only Rose with child at the time, and the vision came about at the same time as her announcement. Another pink haired child was born to her, with the oddest eyes colored the purest of blues, and she was named "Beatrice."
+<br><br>
+Beatrice was raised like a princess, constantly being fed praise and adoration, her family insisting she was the one to save them all. She received the best training money could by, from the best teachers, in magic, physical prowess, and even common New World textbook knowledge like Math and Science. All of her tutors worked as hard as they could to prepare her for the harsh journey assumed to be ahead of her, but no amount of studying and practice could brace her for the ultimate challenge she faced in her very early life: the challenge of motherhood. At the young age of sixteen she was unwillingly impregnated, and before she could even graduate from her lessons her child was born.
+<br><br>
+Yet another dilemma presented itself when she did actually manage to complete her training. The Roses were preparing Beatrice for something, but they were doing so completely blind, and had no idea what to do with her once she was ready. The topic of sending her away to train somewhere off-shore and obscure was discussed very fervently among her relatives, and before long they discovered the existence of a University centered around the Arcane Arts known as "Ulreich." Almost immediately she was shipped away, ordered to attend and then return home once she had reached magical peak. Overjoyed to leave behind the controlling and overbearing walls erected by her family, Beatrice took her leave as soon as she was prompted to do so, and even brought her daughter along with her. As much as she detested the tiny leech for unintentionally sucking away her life, a powerful motherly instinct demanded she refuse to leave the precious toddler in their incapable hands.
+</div>
+
+<div id="tab3">
+<h1>The Family System</h1>
+<b>Branches</b><br>
+There are four prominent different groups within the Rose family, sharing the same last name but bearing different important skills and faction titles. Can you guess which one Beatrice belongs to?
+<li>The Warriors:</li> The line that extends from the firstborn child of the two original lovers. They're considered the most prominent and powerful of the branches, and are inherently strong, allowing them to control the other factions through intimidation. Often hard headed with vile tempers, their skills stem from their physical and magical strength. The Warriors most commonly practice violently destructive magics.
+<li>The Engineers:</li> Second in line, these techno-savvy nerds make up the engineering branch. While not very smart or capable in social settings, they have the mental capacity to invent phenomenal contraptions and are very good at studying foreign subjects. Typically considered the research department, their strongest skill lies within their hands-on capabilities. Tinkerers by nature, their magical attunements often fall under trees that offer high utility.
+<li>The Tacticians:</li> Not so easily manipulated, and very good at pulling the strings behind the scenes--especially those of their hard headed Warrior counterparts--the Tacticians are not only the politicians, but also the poster children of the family. They are the ones seen attending public events, always very easy on the eyes, and capable of consistently producing gorgeous children. While they excell at manipulating situations, and completely controlling their own emotions and bodily functions, their magical talent is extremely lacking in comparison to their counterparts.
+<li>The Seers:</li> The most obscure, hidden, and secretive of all the Rose branches, Seers are not inherently good looking or even all that smart. They age like fine wine, growing in usefulness as their life and magic progresses. They are the weakest of the four, their only skills being in their magical potential. Seers have the uncanny ability of being able to predict the future when they have gained enough experience in life and have become powerful entities. They primarily choose heavily sensory based magics.
+<br><br>
+<b>Hierarchy</b><br>
+Each branch has its own "Leader," and how that leader is determined varies by branch. For the Warriors, the leader is the strongest and cruelest brute. Among the Engineers and Tacticians a leader is voted from a series of elected candidates, who are chosen based on popularity and ability to deliver on promises and various skills. For the Seers, whomever is the eldest living member is considered to be their representative. These four leaders are all part of a lesser council who meet with--and answer to--the Head of the Family. This so called "Head" is the monarch figure of the entire Rose clan, and they are chosen by a mix of all processes. Age is an important factor, as well as strength and popularity. Candidates are elected from various branches, and often battle to the death. Those who fail the trial don't deserve to live, let alone be called true Roses.
+<br><br>
+<h1>Cultural Laws & Regulations</h1>
+<b>Respect</b><br>
+The Head of the entire family is revered among their own like a god, only those they deem worthy are even allowed within their presence. While around the Head, the lesser Council members are required to be strictly respectful and humble, but they are known to take advantage of their titles around the rest of the clan. They often require a similar level of respect from their relatives, and are known to respond to disobedience with punishments of inhumane and cruel proportions.
+<br><br>
+<b>Patriarchy</b><br>
+Males are strictly dominant over female members. The Roses possess a very old fashioned mindset, believing their men to be the ultimate warriors and providers for their women, who must always work hard to prove they are useful for more than just pumping out children. As terrible as it sounds, the women are generally fine with this treatment, mostly because it means they are pampered like princesses. No one holds high expectations for them, allowing them to be lazy and carefree while the men are pressured to keep providing the money required for their expensive lifestyles, as well as be the strongest and hardest working they actually can be. While a woman's value is in her body, a man's is in his work ethic.
+<br><br>
+<b>Allies</b><br>
+While primarily connected to--and centralized in--the United Kingdom, the Roses have allies of their own both magical and completely human, that sometimes align with Britain's wishes and sometimes don't. The Roses are welcome guests in most of the New World thanks to their flashy and inaccurate portrayals of being a kindhearted and compassionate group of rich people. Despite being called good "friends," allies are still held at a strict distance and aren't even allowed to know about the different factions within the family, let alone that they work far differently than the general public assumes.
+<br><br>
+<b>"Romance"</b><br>
+All marriages are arranged, and courtships must be signed off on by the parents of the future couples. In addition to this, the Roses have a strict system of inbreeding, they are not allowed to "dirty the bloodline" by creating children with lesser beings outside of their own clan, even if they are allies. Romance is a forced concept, siblings, cousins, and other various relatives are often forced into relationships for the sake of breeding and sometimes even political gain, and if they do not appear happy they are assumed to be ungrateful and are swiftly put to death. If any bastard or secret children with outsiders are discovered, the offender is required to end the lives of their own children by sacrificial rite. Most of the time this ends with the parents being framed for murdering their own offspring, stirring the public into an uproar and cruelly ruining their lives before they are put to death by an external government.
+</div>
+
+<div id="tab4">
+<h1>Inventory</h1>
+<b>Large Suitcase</b><br>
+Full of essentials for every prissy girl, from clothing to make-up to hair care products, all packed tight into a frilly pink sack of luggage.
+<br><br>
+<b>Bluebane</b><br>
+A four-foot-long sword made entirely out of various pink metals and jewels with a rose-bud carved into the hilt. Despite its expensive appearance, it is merely made of iron-grade materials and is nothing more than a weapon given to Beatrice in an attempt to provide her with a weapon to be used in self defense.
+</div>
+
+<div id="tab5">
+<h1>Magus Manatism (Paige)</h1>
+<img align="right" style="height:65%;" src="https://i.imgur.com/piVoOxj.png"/>
+<i>"The epitome of mana manipulation. Those that take this tree end up taking their skills in this art to levels so ridiculous they can solidify their mana into all shapes and sizes. Manatists start off with an advanced form of mana manipulation that makes them just a bit more adept at Paige rank with their skill than others. This of course doesn't stop being a fact as they rank up and as they learn spells, but lose their edge as their peers get more experienced. With their inate ability at mana manipulation, they are able to learn universal spells that are meant for those a rank above them and below.  Without a question of a doubt, their trump card comes in the form of an advanced form of mana, the purest a mage could possibly make. Arcane energy is a very volatile and destructive force, one that takes much time to master but is fully worth the journey from Expert Mage to the upper ranks available to mages. Some even say its power cannot be matched at its zenith."</i>
+<br><br>
+<h1>Paige Spells</h1>
+<b>Coral Guard</b><br>
+A circular pane of pink mana solidified into a barrier construct. While it is not necessarily physically connected to the caster's body when summoned, it is required to hover six inches out from either of her forearms as though an invisible force straps it in place. While the slightly curved surface of the see-through panel typically measures only two feet in height and width, it can be temporarily expanded to measure six feet in both (for one singular rotation) with an extra mana cost. Being a defensive Manatist construct allows it to be as durable as Lead, and scale naturally to Steel at Mage rank.
+<br><br>
+<b>Rose-Blade</b><br>
+A mana construct that takes the form of a pink Rapier (3'10" in length) with a thorned vine-like design that is etched into the hilt and the blade. This design is an activate-able effect that allows the vine to become as solid as the rest of the construct, which unwraps from the blade and extends a five-foot-long rope from the bottom of the hilt. The thorns do remain but are as small as a fingernail and spaced out enough to allow plenty of gripping room. The construct in its entirety is only as durable as tin, but naturally scales up to iron at Mage rank.
+</div>
+
+<div id="tab6">
+<h1>Bardism (N/A)</h1>
+<i>"Although music is a beautiful expression of art, the proper mage may cause it to become something much more. Bard's have the ability to convert music into powerful spells, focused primarily on buffing and (slight) healing. However, at higher levels Bardism can certainly do heavy damage, with a particular strength in sound based attacks."</i>
+<br><br>
+To be unlocked eventually.
+</div>
